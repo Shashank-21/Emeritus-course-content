@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Health Dashboard</h1>
+    <section class="dashboard">
+      <div id="health-metrics" class="card">
+        <h2>Your Health Metrics</h2>
+        <div id="metrics-container"></div>
+      </div>
+
+      <div id="activity-logger" class="card">
+        <h2>Log Your Activities</h2>
+        <input id="activity-type" type="text" placeholder="Activity Type" />
+        <input id="activity-duration" type="text" placeholder="Duration" />
+        <input id="activity-distance" type="text" placeholder="Distance" />
+        <button id="log-activity">Log Activity</button>
+        <div id="activities-container"></div>
+      </div>
+
+      <div id="meal-planner" class="card">
+        <h2>Meal Planner</h2>
+        <select id="meal-options" onchange="selectMeal"></select>
+        <div id="selected-meal-info"></div>
+      </div>
+
+      <div id="goal-tracker" class="card">
+        <h2>Health Goal Tracker</h2>
+        <input id="goal-name" type="text" placeholder="Goal Name" />
+        <input id="goal-target" type="text" placeholder="Target" />
+        <input id="goal-duration" type="text" placeholder="Duration [days]" />
+        <button id="set-goal">Set Goal</button>
+        <div id="goals-container"></div>
+      </div>
+    </section>
+    <script src="initial-data.js"></script>
+    <script src="helper-functions.js"></script>
+    <script src="event-listeners.js"></script>
+  </body>
+</html>
