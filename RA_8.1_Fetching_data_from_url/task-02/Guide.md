@@ -1,24 +1,18 @@
-In this assignment, you will utilize JavaScript's Fetch API to retrieve data from a remote server and display it on a webpage. This assignment is designed to enhance your understanding of asynchronous JavaScript, API interactions, and basic data handling.
-
-#### Objective
-
-Your goal in this task is to fetch a list of cat facts from the [Cat Facts API][https://cat-fact.herokuapp.com/facts] and display the stringified JSON data on your webpage. This exercise will give you practical experience with making network requests and handling the response in JavaScript.
+In this task, you will focus on displaying the fetched cat facts in a user-friendly format on a webpage. Your goal is to dynamically create and style elements in the DOM using JavaScript and CSS.
 
 #### Task Instructions
 
-1. **Implement the Fetch Operation**:
+1. **Implementing the `renderCatFacts` Function**:
 
-   - Write a function named `fetchCatFacts` in your JavaScript file.
-   - Use the `fetch` API to retrieve data from `"https://cat-fact.herokuapp.com/facts"`.
-   - Ensure that the function returns a Promise containing the fetched data.
+   - Use the provided starter code in `task-02.js`.
+   - Your task is to create and append elements to the DOM for each cat fact.
+   - For each fact, create a `div` element with the class `card`, containing a `p` element for the fact text.
 
-2. **Handle the Response**:
+2. **Styling the Facts**:
 
-   - In the `.then()` method of the fetch call, check if the HTTP response is successful.
-   - If the response is not successful, throw an error with a meaningful message.
-   - If the response is successful, parse the JSON data and return it in a stringified format for display, using the `JSON.stringify()` function
+   - Style the `.card` class in `styles.css` to make each fact visually appealing.
 
-3. **Error Handling**:
+3. **Testing the Functionality**:
 
-   - Implement a `.catch()` block to gracefully handle any network or parsing errors.
-   - Log the error to the console or display an error message on the webpage.
+   - Open `index.html` in a web browser to see your implementation in action.
+   - Ensure that each cat fact is displayed in a styled card format.
