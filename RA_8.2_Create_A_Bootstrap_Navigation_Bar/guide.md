@@ -9,3 +9,5 @@ In the `index.html` file, ensure the following components with their respective 
 2. **Container Fluid**: Inside the navbar, there should be a `div` with the class `container-fluid`.
 3. **Navbar Brand**: A link (`a` tag) with the class `navbar-brand` and ID `homeLink`.
 4. **Navbar Navigation Links**: Two links (`a` tags) with the class `nav-link`. One should have the ID `aboutLink` and the other `menuLink`.
+
+Refresh the browser to test your code.
