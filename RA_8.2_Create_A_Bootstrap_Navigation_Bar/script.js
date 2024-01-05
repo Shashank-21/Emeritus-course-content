@@ -72,6 +72,7 @@ function renderPage(page) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
+  renderPage("home");
   document.getElementById("homeLink").addEventListener("click", function () {
     renderPage("home");
   });
@@ -83,6 +84,4 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("menuLink").addEventListener("click", function () {
     renderPage("menu");
   });
-
-  renderPage("home");
 });
