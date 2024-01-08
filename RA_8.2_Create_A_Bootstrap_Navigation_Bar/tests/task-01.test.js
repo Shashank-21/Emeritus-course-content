@@ -7,7 +7,7 @@ describe("Navbar and NavLink Classes", () => {
 
   beforeAll(() => {
     const htmlContent = fs.readFileSync(
-      path.resolve(__dirname, "../index.html"),
+      path.resolve(__dirname, "../task-01index.html"),
       "utf8"
     );
     const dom = new JSDOM(htmlContent);
