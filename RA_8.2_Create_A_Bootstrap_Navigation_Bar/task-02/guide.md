@@ -28,4 +28,8 @@ The starter code includes the basic structure of the webpage with placeholders f
 
 3. **Consistent Layout**: Ensure the layout looks clean and organized, with all cards having a uniform style.
 
+#### Tips:
+
+- Explore the [Tailwind CSS Documentation](https://tailwindcss.com/docs) for guidance on specific classes.
+
 Refresh the webpage to see your code in action
