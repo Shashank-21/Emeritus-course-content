@@ -2,12 +2,12 @@ In this task, you will dive into the performance analysis of past cleanup events
 
 # Instructions:
 
-Calculate the following for the completed events:
 From the `eventsList` array, filter out events that are marked as “Completed”, using the `filter` function.
-Total waste collected (in pounds), and store it in the `totalWasteCollected` variable.
-Total number of participants (organizers and volunteers combined), and store it in the `totalParticipants` variable.
-Average weight of waste collected per event, and store it in the `averageWasteCollectedPerEvent` variable
-Average weight of waste collected per participant, and store it in the `averageWeightCollectedPerParticipant` variable.
+Calculate the following for the completed events:
+- Total waste collected (in pounds), and store it in the `totalWasteCollected` variable.
+- Total number of participants (organizers and volunteers combined), and store it in the `totalParticipants` variable.
+- Average weight of waste collected per event, and store it in the `averageWasteCollectedPerEvent` variable
+- Average weight of waste collected per participant, and store it in the `averageWeightCollectedPerParticipant` variable.
 
 Use the `reduce` function available on all arrays to accomplish this.
 
