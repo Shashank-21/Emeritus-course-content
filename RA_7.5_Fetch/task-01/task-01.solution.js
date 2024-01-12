@@ -1,13 +1,7 @@
-function renderPost(post, postsContainer) {
-  const postDiv = document.createElement("div");
-  postDiv.classList.add("post");
-  postDiv.innerHTML = `<h3>${post.title}</h3><p>${post.body}</p>`;
-  postsContainer.appendChild(postDiv);
-}
-
-function fetchPosts(url, postsContainer, errorMessage) {
+function fetchPosts(url, errorMessage) {
+  // Declare a variable 'postsList' to store the value returned from 'fetch'
   // Use `fetch` to fetch the data from the url, and chain on a 'then' function
-  fetch(url)
+  const postList = fetch(url)
     .then((response) => {
       // If a bad response gets returned from the url, throw a new Error.
       if (!response.ok) {
@@ -16,26 +10,18 @@ function fetchPosts(url, postsContainer, errorMessage) {
       // Else return the json formatted response(response.json())
       return response.json();
     })
-    // Once you returned that, chain on another then function, in which you'd loop over posts
+    // Once you returned that, chain on another then function, in which you'd return the posts received
     .then((posts) => {
-      console.log(posts);
-      // And for each post, run the function `renderPost`.
-      posts.forEach((post) => {
-        // The renderPost function takes in the post as the first argument and postsContainer as the second argument.
-        renderPost(post, postsContainer);
-      });
+      return posts;
     })
     // Finally, chain on a catch block, which catches any error,
     .catch((error) => {
-      // And run the `renderPost` function with `errorMessage` and `postsContainer` as its arguments.
-      renderPost(errorMessage, postsContainer);
-      // Also, include a console.error, with an error message.
-      console.error(
-        "There has been a problem with your fetch operation:",
-        error
-      );
+      // Return the errorMessage in the catch block
+      return errorMessage;
     });
+  // Return the value of the 'postList' variable
+  return postList;
 }
 if (typeof module !== "undefined") {
-  module.exports = { renderPost, fetchPosts };
+  module.exports = { fetchPosts };
 }

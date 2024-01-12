@@ -1,5 +1,8 @@
 const path = require("path");
-const fetchPosts = require(path.resolve(__dirname, "../task-01/task-01.js"));
+const { fetchPosts } = require(path.resolve(
+  __dirname,
+  "../task-01/task-01.js"
+));
 
 // Mock global fetch
 global.fetch = jest.fn(() =>
