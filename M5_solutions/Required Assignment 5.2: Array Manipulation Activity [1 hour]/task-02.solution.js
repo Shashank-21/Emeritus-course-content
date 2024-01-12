@@ -9,7 +9,7 @@ function removeStudent(students, order) {
       return removedStudent;
     case "last":
       removedStudent = students.pop();
-      return removeStudent;
+      return removedStudent;
     default:
       return "Invalid order string";
   }
