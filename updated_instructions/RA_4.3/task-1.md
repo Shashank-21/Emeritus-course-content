@@ -7,6 +7,7 @@ Within the `displayWelcomeMessage` function, you will find two variables: `parag
 
 ```js
 const paragraph1Content = "Welcome to Finance Manager!";
+// Similarly, fill up paragraph2Content with another message (string).
 ```
 
 2. Call the `displayWelcomeMessage` function in the line specified to ensure that the welcome message displays when the page has loaded.
