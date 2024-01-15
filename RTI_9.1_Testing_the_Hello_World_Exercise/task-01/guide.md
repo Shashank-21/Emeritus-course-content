@@ -35,4 +35,5 @@ If we had to test whether the function `reverse('hello')` returns `'olleh'`, the
 expect(reverse("hello")).toBe("olleh");
 ```
 
-Run `npm run test:task-01` to see your test code in action
+Try it: `npm run test:task-01`
+Check it: `npm run test1:json`

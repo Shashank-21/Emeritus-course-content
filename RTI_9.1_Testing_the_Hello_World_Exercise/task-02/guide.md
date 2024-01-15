@@ -39,4 +39,5 @@ If we had to test whether the function `isPalindrome('hello')` returns `false`, 
 expect(isPalindrome("hello")).toBe(false);
 ```
 
-Run `npm run test:task-02` to see your test code in action
+Try it: `npm run test:task-02`
+Check it: `npm run test2:json`

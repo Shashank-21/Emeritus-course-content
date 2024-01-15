@@ -57,4 +57,5 @@ If we had to test whether the function `toTitleCase('hello')` returns `"Hello"`,
 expect(toTitleCase("hello")).toBe("Hello");
 ```
 
-Run `npm run test:task-04` to see your test code in action
+Try it: `npm run test:task-04`
+Check it: `npm run test4:json`

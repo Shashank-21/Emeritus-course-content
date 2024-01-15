@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const jsonFilePath = path.resolve(__dirname, "test-results-1.json");
+const jsonFilePath = path.resolve(__dirname, "test-results-4.json");
 describe("Testing string-utils.test.js", () => {
   let testResults;
   const errors = [];

@@ -47,4 +47,5 @@ If we had to test whether the function `capitalizeWords('hello')` returns `"Hell
 expect(capitalizeWords("hello")).toBe("Hello");
 ```
 
-Run `npm run test:task-03` to see your test code in action
+Try it: `npm run test:task-03`
+Check it: `npm run test3:json`
