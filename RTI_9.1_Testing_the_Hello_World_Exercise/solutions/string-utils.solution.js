@@ -10,7 +10,6 @@ function reverse(str) {
 function isPalindrome(str) {
   // A palindrome is a word, phrase, or sequence that reads the same backward as forward, e.g., 'madam' or 'nurses run'.
   // Check if the string is a palindrome and return true if it is or false if it isn't
-
   const reversedStr = reverse(str);
   return str === reversedStr;
 }

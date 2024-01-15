@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:json": "npx jest string-utils.test.js --json --outputFile=tests/test-results.json > /dev/null 2>&1"
+    "test1:json": "node_modules/jest/bin/jest.js task-01/string-utils.test.js --json --outputFile=tests/test-results-1.json > /dev/null 2>&1; node_modules/jest/bin/jest.js tests/task-01.test.js",
+    "test2:json": "node_modules/jest/bin/jest.js task-02/string-utils.test.js --json --outputFile=tests/test-results-2.json > /dev/null 2>&1",
+    "test3:json": "node_modules/jest/bin/jest.js task-03/string-utils.test.js --json --outputFile=tests/test-results-3.json > /dev/null 2>&1",
+    "test4:json": "node_modules/jest/bin/jest.js task-04/string-utils.test.js --json --outputFile=tests/test-results-4.json > /dev/null 2>&1",
+    "test:task-01": "node_modules/jest/bin/jest.js task-01/string-utils.test.js ",
+    "test:task-02": "node_modules/jest/bin/jest.js task-02/string-utils.test.js ",
+    "test:task-03": "node_modules/jest/bin/jest.js task-03/string-utils.test.js ",
+    "test:task-04": "node_modules/jest/bin/jest.js task-04/string-utils.test.js "
   },
   "keywords": [],
   "author": "",

@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const jsonFilePath = path.resolve(__dirname, "test-results.json");
+const jsonFilePath = path.resolve(__dirname, "test-results-1.json");
 describe("Testing string-utils.test.js", () => {
   let testResults;
   const errors = [];
@@ -11,17 +11,17 @@ describe("Testing string-utils.test.js", () => {
     testResults = JSON.parse(rawTestResults);
   });
 
-  test("The total number of test cases should be 4", () => {
+  test("The total number of test cases should be 1", () => {
     try {
-      expect(testResults.numTotalTests).toBe(4);
+      expect(testResults.numTotalTests).toBe(1);
     } catch (error) {
       errors.push("Have you removed any of the tests?");
     }
   });
 
-  test("The number of test cases that pass should be 4", () => {
+  test("The number of test cases that pass should be 1", () => {
     try {
-      expect(testResults.numPassedTests).toBe(4);
+      expect(testResults.numPassedTests).toBe(1);
     } catch (error) {
       errors.push(
         "Check the test cases or the code in string-utils.js file, not all test cases are passing."
@@ -29,26 +29,12 @@ describe("Testing string-utils.test.js", () => {
     }
   });
 
-  test("The number of test cases that fail should be 0", () => {
-    try {
-      expect(testResults.numFailedTests).toBe(0);
-    } catch (error) {}
-  });
-
   test("The result for each function should be 'passed'", () => {
     const expectedTestCaseResults = [
       "The function 'reverse' should reverse a string - passed",
-      "The function 'isPalindrome' should check for palindromes correctly - passed",
-      "The function 'toTitleCase' should capitalize the right words - passed",
-      "The function 'capitalizeWords' should capitalize all words - passed",
     ];
 
-    const functions = [
-      "reverse",
-      "isPalindrome",
-      "toTitleCase",
-      "capitalizeWords",
-    ];
+    const functions = ["reverse"];
 
     const actualTestCaseResults =
       testResults.testResults[0].assertionResults.map(
