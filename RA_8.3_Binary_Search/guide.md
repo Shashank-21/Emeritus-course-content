@@ -28,7 +28,17 @@ This method works efficiently due to its logarithmic time complexity, O(log n), 
 
 #### Instructions
 
-1. **Implement the Algorithm**: Modify the `binarySearch` function to implement the binary search algorithm. The function should return the index of `num` in `array` if `num` exists in the array. If `num` is not in the array, the function should return -1 for the index.
+1. **Implement the Algorithm**: Modify the `binarySearch` function to implement the binary search algorithm. The function should return the index of `num` in `array` if `num` exists in the array. If `num` is not in the array, the function should return -1 for the index. The Binary Search Algorithm works as follows:
+
+   - Initially, define two variables, `start` and `end`. `start` should contain the index of the beginning of the array (`0`) and end should contain the index to the end of the array (`array.length - 1`)
+   - While `start` is less than or equal to `end`:
+     - Increment the `steps` variable.
+     - Find the middle index (`mid`) of the current range (the average of `start` and `end`).
+     - If the element at `mid` (`array[mid]`) is the target number (`num`), return the index (`mid`).
+       (In this assignment, the value to be returned is an object that contains the `index` and the `steps` parameters.)
+     - If the element at `mid` (`array[mid]`) is less than `num`, adjust `start` to be `mid + 1`.
+     - Otherwise, adjust `end` to be `mid - 1`.
+   - If the loop exits without finding the number, it means the number is not present in the array. Then you'd return the index `-1`.
 
 2. **Count the Steps**: Your function should count the number of steps (iterations) it takes to find the number or conclude it's not in the array. Include this count in the returned object.
 
@@ -38,16 +48,9 @@ This method works efficiently due to its logarithmic time complexity, O(log n), 
 
 5. **Submission**: Once you have completed the implementation, submit your code as per the instructions provided by your instructor or platform.
 
-#### Evaluation Criteria
-
-- **Correctness**: Your implementation should correctly perform a binary search and return the correct index and number of steps.
-- **Efficiency**: As binary search is more efficient than linear search, ensure your solution follows the expected O(log n) time complexity.
-- **Code Quality**: Write clean, readable, and well-documented code.
-
 #### Notes
 
 - The array you are searching through is always sorted.
-- If you're unfamiliar with the binary search algorithm, it's recommended to study its logic and procedure before starting the implementation.
-- Pay attention to the edge cases, such as searching for the first or last element in the array.
+- If you're unfamiliar with the binary search algorithm, it's recommended to study its (logic)[https://www.geeksforgeeks.org/binary-search-in-javascript/] and procedure before starting the implementation.
 
 Good luck! This exercise will enhance your understanding of search algorithms and their implementation in a real-world programming language.
