@@ -1,4 +1,4 @@
-In this assignment, you will create a navigation bar for a restaurant website using HTML and CSS (Bootstrap 5). The goal is to build a dynamic webpage that updates its content based on user interaction with the navigation bar.
+In this assignment, you will create a navigation bar for a restaurant website using HTML and Bootstrap CSS. The goal is to build a dynamic webpage that updates its content based on user interaction with the navigation bar.
 The navigation bar should include links to different sections of the site: Home, About, and Menu.
 
 ### Instructions for Assignment:

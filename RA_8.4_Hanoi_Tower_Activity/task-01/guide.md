@@ -5,7 +5,7 @@ A larger disk cannot be placed on top of a smaller disk.
 
 Instructions:
 The Tower of Hanoi can be solved using a recursive algorithm. A recursive algorithm is a function that calls itself. In the case of the Tower of Hanoi, the `moveDisks()` function calls itself recursively to move the disks from one rod to another.
-For this assignment, you will need to fill out the `moveDisks()` function in the `hanoi.js` file. The function should take three arguments: the number of disks to move, the source rod, and the destination rod. The function should return nothing.
+For this assignment, you will need to fill out the `moveDisks()` function in the `hanoi.js` file. The function should take four arguments: the number of disks to move, the source rod, the destination rod and the auxiliary (or the spare) rod. The function should return nothing.
 Here is some pseudocode for the `moveDisks()` function:
 
 ```

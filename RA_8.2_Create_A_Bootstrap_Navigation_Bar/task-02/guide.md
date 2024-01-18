@@ -15,16 +15,16 @@ The starter code includes the basic structure of the webpage with placeholders f
 #### Requirements:
 
 1. **Apply Tailwind CSS Classes**: For each restaurant div (`id="restaurant1"`, `id="restaurant2"`, etc.), apply Tailwind CSS classes to style the card. Each card should include:
-   - A white background.
-   - Rounded corners.
-   - A shadow effect.
-   - Padding around the content.
-   - Full width within its parent container.
+   - A white background. (`bg-white`)
+   - Rounded corners. (`rounded-lg`)
+   - A shadow effect. (`shadow-lg`)
+   - Padding around the content. (`p-4`)
+   - Full width within its parent container. (`w-full`)
 2. **Style Images and Text**: Use Tailwind CSS to style the images (`img` tags) and text (`h2` and `p` tags) within each card.
 
-   - Images should have a fixed height and cover the width of the card.
-   - The restaurant name (inside `h2`) should be bold and appropriately sized.
-   - The locality information (inside `p`) should have a subtle text color.
+   - Images should have a fixed height (`h-60`) and cover the width of the card. (`w-full` and `object-cover`)
+   - The restaurant name (inside `h2`) should have a top margin, (`mt-2`) be semi-bold (`font-semibold`) and appropriately sized. (`text-xl`)
+   - The locality information (inside `p`) should have a subtle text color. (`text-gray-600`)
 
 3. **Consistent Layout**: Ensure the layout looks clean and organized, with all cards having a uniform style.
 
