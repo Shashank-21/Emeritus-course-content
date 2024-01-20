@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grocery Store Aisles</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h2>Shelf Restocking Status</h2>
+	<div>
+		<label for="totalItemsInput">Total items to restock:</label>
+		<input type="number" id="totalItemsInput" min="1">
+		<label for="itemsPerTripInput">Items restocked per trip:</label>
+		<input type="number" id="itemsPerTripInput" min="1">
+		<button id="restockButton">Start Restocking</button>
+	</div>
+	<div id="restocking-info"></div>
+	<script src="task-02.js"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>

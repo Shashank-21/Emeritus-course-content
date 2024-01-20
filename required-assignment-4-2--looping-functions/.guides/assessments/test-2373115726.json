@@ -1,0 +1,43 @@
+{
+	"type": "test",
+	"taskId": "test-2373115726",
+	"source": {
+		"name": "Task 1",
+		"showName": true,
+		"instructions": "Write a for loop that iterates from 1 up to a specified number (representing the number of aisles), with the following instructions:\n1. In each iteration, create a string `label` that says `\"Aisle X: {category}\\n\"`, where:\n    a. `X` is the aisle number\n    b. `{category}` is a randomly generated category. \n        *You need to just write `let variable = getRandomCategory()`, and `variable` will now have a random category stored inside it.*\n    c. `\\n` is the new line character.\n2. Add the value of the `label` created into the `labels` string. You can do it using the `+=` operator.",
+		"command": "npm run --silent test:task-01",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"task-01/task-01.js"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-01/task-01.js"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

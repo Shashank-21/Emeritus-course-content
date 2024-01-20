@@ -1,0 +1,44 @@
+{
+	"type": "test",
+	"taskId": "test-4044181456",
+	"source": {
+		"name": "Task 3",
+		"showName": true,
+		"instructions": "**Total Points: 6**\n\nUse a `do-while` loop to iterate through the available coupon codes. The loop should continue as long as:\n- You have not reached the end of the `availableCodes` array, AND\n- The correct coupon code has yet to be found (`isFound` is false).\n\nInside the loop:\n1. Append a message to `compareString` that indicates which code to check.\n\t  - Format the message as: \"Checking against {current_code}...\\n\"\n2. Check that the current code (`availableCodes[index]`) matches the entered code.\n\t  - If it's a match, set `resultString` to `\"Coupon found!\"` and `isFound` to true.\n3. Increment the `index` to move to the next code in the next iteration.\n\nAfter the loop:\n4. Check that no coupon was found (use the `isFound` variable).\n\t  - If the value of `isFound` is false, set `resultString` to `\"Coupon not found\"`.\n",
+		"command": "node_modules/mocha/bin/_mocha --reporter .guides/secure/reporter.js .guides/secure/task-3-tests/task-03.test.js",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 6,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"task-03/task-03.js",
+				"task-03/index.html"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-03/task-03.js"
+				},
+				{
+					"type": "preview",
+					"panelNumber": 1,
+					"content": "task-03/index.html"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

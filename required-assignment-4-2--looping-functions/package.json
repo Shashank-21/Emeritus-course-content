@@ -1,0 +1,31 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "### Make a new file Use **File > New File...** or right-click in the file tree to create a new file. You can right-click in the file tree to rename or delete files.",
+  "main": "index.js",
+  "scripts": {
+    "test:task-01": "npx jest task-01.test.js --json --outputFile=.guides/secure/task-1-tests/test-results-1.json > /dev/null 2>&1; npm run process-test-1",
+    "test:task-02": "npx jest task-02.test.js --json --outputFile=.guides/secure/task-2-tests/test-results-2.json > /dev/null 2>&1; npm run process-test-2",
+    "test:task-03": "npx jest task-03.test.js --json --outputFile=.guides/secure/task-3-tests/test-results-3.json > /dev/null 2>&1; npm run process-test-3",
+    "test:task-04": "npx jest task-04.test.js --json --outputFile=.guides/secure/task-4-tests/test-results-4.json > /dev/null 2>&1; npm run process-test-4",
+    "process-test-1": "node .guides/secure/task-1-tests/processTestResult1.js",
+    "process-test-2": "node .guides/secure/task-2-tests/processTestResult2.js",
+    "process-test-3": "node .guides/secure/task-3-tests/processTestResult3.js",
+    "process-test-4": "node .guides/secure/task-4-tests/processTestResult4.js",
+    "task-01": "node task-01/task-01.js",
+    "task-02": "node task-02/task-02.js",
+    "task-03": "node task-03/task-03.js",
+    "task-04": "node task-04/task-04.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "cheerio": "^1.0.0-rc.12",
+    "jest": "^29.7.0",
+    "jsdom": "^23.0.1",
+    "mocha": "^10.2.0",
+    "puppeteer": "^21.5.2"
+  }
+}

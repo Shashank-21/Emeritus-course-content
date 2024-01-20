@@ -1,0 +1,44 @@
+{
+	"type": "test",
+	"taskId": "test-3799355638",
+	"source": {
+		"name": "Task 1",
+		"showName": true,
+		"instructions": "**Total Points: 4**\n\nWrite a `for` loop that iterates from 1 to a specified number (representing the number of aisles) with the following instructions:\n\n1. In each iteration, create a string `label` that says `\"Aisle X: {category}\\n\"`, where:\n  a. `X` is the aisle number\n  b. `{category}` is a randomly generated category.\n  c. `\\n` is the new line character\n\n\nTo achieve this, follow these steps inside the `for` loop:\n  a. Define a variable `category` and store the value of the randomly generated category using this line:\n  ```js\n  const category = getRandomCategory();\n  ```\n  b. Define a variable `label` and assign the value \"Aisle \" to it (Don't forget the space.)\n  c. Add the value of the variable used for iteration (usually `i` in the line `for (let i = 0; i <= numberOfAisles; i++)`) to the `label` variable using the `+=` operator. (`label += i`)\n  d. Add \": \" to the `label` variable using the `+=` variable (`label += \": \"`)\n  e. Add the value stored inside the `category` variable using the `+=` operator, as shown in the previous steps.\n  f. Finally, add the new line character (`\"\\n\"`) to the `label` variable using the `+=` operator\n\n2. Add the value of the `label` created into the `labels` string using the `+=` operator.",
+		"command": "node_modules/mocha/bin/_mocha  .guides/secure/task-1-tests/task-01.test.js",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 4,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"task-01/task-01.js",
+				"task-01/index.html"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-01/task-01.js"
+				},
+				{
+					"type": "preview",
+					"panelNumber": 1,
+					"content": "task-01/index.html"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

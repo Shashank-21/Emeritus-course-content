@@ -1,0 +1,58 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	margin-top: 20px;
+}
+
+input[type="text"] {
+	padding: 0.5rem;
+	margin-right: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 0.25rem;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 0.25rem;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #367c39;
+}
+
+#result {
+	margin-top: 1rem;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+.price-item {
+	font-size: 1.2rem;
+	margin: 0.5rem;
+	padding: 0.5rem;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	color: #333;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.price-item s {
+	/* Style for strikethrough text (original price) */
+	color: #777;
+	margin-right: 0.5rem;
+}
+
+.price-item strong {
+	/* Style for highlighted discounted price */
+	color: #0f5211;
+	font-weight: bold;
+}

@@ -1,0 +1,27 @@
+{
+	"id": "0c58dd4c-2f07-c517-72cd-9ecb16dfed68",
+	"title": "Using a `while` Loop for Shelf Restocking",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "task-02/task-02.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "#preview: task-02/index.html",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "3-cell",
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

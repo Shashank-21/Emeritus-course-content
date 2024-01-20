@@ -1,0 +1,27 @@
+{
+	"id": "74e44b93-f5b7-be8e-7953-fce46046cc2f",
+	"title": "Implementing a `do-while` Loop for Discount Code Verification",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "task-03/task-03.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "#preview: task-03/index.html",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "3-cell",
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

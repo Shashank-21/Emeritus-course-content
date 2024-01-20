@@ -1,0 +1,27 @@
+{
+	"id": "f831800f-2951-8800-02d7-14c322d1b055",
+	"title": "Iterating with a `for` Loop for Aisle Labels",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "task-01/task-01.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "#preview: task-01/index.html",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "3-cell",
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

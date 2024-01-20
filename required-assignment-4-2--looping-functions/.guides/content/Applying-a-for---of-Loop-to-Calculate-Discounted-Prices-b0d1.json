@@ -1,0 +1,27 @@
+{
+	"id": "b0d19377-bb84-642f-7787-b2aabaa1c3c4",
+	"title": "Applying a for...of Loop to Calculate Discounted Prices",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "task-04/task-04.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "#preview: task-04/index.html",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "3-cell",
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

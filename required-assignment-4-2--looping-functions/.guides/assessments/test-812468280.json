@@ -1,0 +1,44 @@
+{
+	"type": "test",
+	"taskId": "test-812468280",
+	"source": {
+		"name": "Task 2",
+		"showName": true,
+		"instructions": "**Total Points: 5**\n\nWrite a `while` loop that continues as long as items remain in the storage to restock (`storageItemCount > 0`). In each iteration of the loop:\n\n1. Determine the number of items to restock in the current trip.\n   Use Math.min() to choose the lesser of `storageItemCount` and `restockPerTrip` to ensure that you don't restock more than what is available or more than the capacity per trip.\n   Example:\n\n   ```js\n   Math.min(2, 5); // Gives the value of the minimum of the two numbers, which is 2 in this case\n   ```\n\n   Store the minimum value in the `itemsToRestock` variable.\n\n2. Subtract the number of items restocked in this trip from `storageItemCount` using the `-=` operator.\n3. Increase the trip counter by 1 (`trips++` or `trips += 1`) .\n\n4. Concatenate the restock information for the current trip to `restockInfo`. The information should include the trip number and the number of items restocked for this trip in the format: \"Trip X: Restocked Y items.\" For this:\n   - Define a variable `restockInfo`. Assign the string `\"Trip \"` to the variable.\n   - Add the value of the `trips` variable to the `restockInfo` variable using the `+=` operator (`restockInfo += trips;`).\n   - Add the string `\": Restocked \"` to the `restockInfo` variable using the `+=` operator.\n   - Add the value of the `itemsToRestock` variable to the `restockInfo` variable using the `+=` operator.\n   - Finally, add the string `\"items.\"` to the `restockInfo` variable. Remember to add the period at the end.\n",
+		"command": "node_modules/mocha/bin/_mocha --reporter .guides/secure/reporter.js .guides/secure/task-2-tests/task-02.test.js",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 5,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"task-02/task-02.js",
+				"task-02/index.html"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-02/task-02.js"
+				},
+				{
+					"type": "preview",
+					"panelNumber": 1,
+					"content": "task-02/index.html"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

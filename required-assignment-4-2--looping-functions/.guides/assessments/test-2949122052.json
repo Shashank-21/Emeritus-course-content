@@ -1,0 +1,44 @@
+{
+	"type": "test",
+	"taskId": "test-2949122052",
+	"source": {
+		"name": "Task 4",
+		"showName": true,
+		"instructions": "**Total Points: 3**\n\nUse a `for...of` loop to iterate through an array of product prices. In each iteration:\n1. Calculate the discounted price for each product based on a given discount rate using the formula `price - price * discountRate`.\n2. Using the `push()` method, push the calculated discounted price into the `discountedPrices` array.",
+		"command": "node_modules/mocha/bin/_mocha --reporter .guides/secure/reporter.js .guides/secure/task-4-tests/task-04.test.js",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 3,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"task-04/task-04.js",
+				"task-04/index.html"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-04/task-04.js"
+				},
+				{
+					"type": "preview",
+					"panelNumber": 1,
+					"content": "task-04/index.html"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}
