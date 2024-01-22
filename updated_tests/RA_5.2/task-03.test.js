@@ -2,7 +2,7 @@ const path = require("path");
 const { faker } = require("@faker-js/faker");
 const { removeStudentByName } = require(path.resolve(
   __dirname,
-  "task-03/task-03.js"
+  "../../../task-03/task-03.js"
 ));
 
 function generateRandomStudents() {
