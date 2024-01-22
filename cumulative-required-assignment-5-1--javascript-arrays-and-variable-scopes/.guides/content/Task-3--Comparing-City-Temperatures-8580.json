@@ -1,0 +1,30 @@
+{
+	"id": "8580c693-df2f-3077-bb13-7599e2cf90eb",
+	"title": "Task 3: Comparing City Temperatures",
+	"files": [
+		{
+			"path": "task-03/pre-task.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "task-03/app.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "task-03/task-03.js",
+			"panel": 0,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree",
+	"path": [
+		"task-03/"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

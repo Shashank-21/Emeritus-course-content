@@ -1,0 +1,30 @@
+{
+	"id": "9f075bbd-27e6-f7ea-56fc-0d2deb079db6",
+	"title": "Task 4: Identifying Extreme Temperature Days",
+	"files": [
+		{
+			"path": "task-04/app.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "task-04/pre-task.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "task-04/task-04.js",
+			"panel": 0,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree",
+	"path": [
+		"task-04/"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

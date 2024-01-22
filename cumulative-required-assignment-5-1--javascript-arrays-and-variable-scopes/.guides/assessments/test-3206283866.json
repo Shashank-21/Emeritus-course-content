@@ -1,0 +1,44 @@
+{
+	"type": "test",
+	"taskId": "test-3206283866",
+	"source": {
+		"name": "Exercise: Data Initialization",
+		"showName": true,
+		"instructions": "#### Task Instructions\n\n1. **Implement the `generateRandomTemperatureData` Function**:\n\n   - Define the function `generateRandomTemperatureData` that takes three parameters:\n     - `city`: A string representing the name of the city.\n     - `minTemp`: A number representing the minimum temperature for this city.\n     - `maxTemp`: A number representing the maximum temperature for this city.\n   - Inside the function, create an array to hold 7 random temperature values, one for each day of the week.\n   - Generate each temperature as a random integer between `minTemp` and `maxTemp` (inclusive).\n   - Return an object containing the `city` name and the array of `temperatureData`.\n\n2. **Complete `initializeCityData` Function**:\n   - In the `initializeCityData` function, create an empty array `cityData`.\n   - Iterate over the `cities` array. For each city object in the array:\n     - Call `generateRandomTemperatureData` with the city's name, `minTemp`, and `maxTemp`.\n     - Push the returned object from `generateRandomTemperatureData` into the `cityData` array.\n   - Return the `cityData` array, which should now contain the temperature data for each city.\n",
+		"command": "node_modules/jest/bin/jest.js .guides/secure/task-01.test.js",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"task-01/app.js",
+				"task-01/task-01.js"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-01/app.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-01/task-01.js"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

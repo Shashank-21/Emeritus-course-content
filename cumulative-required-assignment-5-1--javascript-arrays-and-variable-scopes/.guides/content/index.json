@@ -1,0 +1,22 @@
+{
+	"title": "Cumulative Required Assignment 5.1: JavaScript Arrays and Variable Scopes",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Assignment-Introduction--JavaScript-Arrays-and-Variable-Scopes-dd87",
+		"Task-1--Data-Initialization-61d3",
+		"Task-2--Temperature-Analysis-Objective-7787",
+		"Task-3--Comparing-City-Temperatures-8580",
+		"Task-4--Identifying-Extreme-Temperature-Days-9f07"
+	]
+}

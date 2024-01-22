@@ -1,0 +1,98 @@
+{
+	"type": "test",
+	"taskId": "test-3463532073",
+	"source": {
+		"name": "Identifying Extreme Temperature Days",
+		"showName": true,
+		"instructions": "#### Task Instructions\n\n1. **Implement the `findDayWithHighestTemperature` Function**:\n\n   - Write a function that takes an array of temperature data for a city and identifies the day (index) that had the highest temperature.\n\n2. **Implement the `findDayWithLowestTemperature` Function**:\n\n   - Similarly, write a function that identifies the day (index) with the lowest temperature for a given set of temperature data.\n\n3. **Complete the `getHighestAndLowestDays` Function**:\n   - Use the implemented functions within `getHighestAndLowestDays` to find the highest and lowest temperature days for each city in the provided data.\n   - Loop over each city's data, apply your functions, and log the results in a readable format that specifies the city name and the days with the highest and lowest temperatures.\n",
+		"command": "node_modules/jest/bin/jest.js .guides/secure/task-04.test.js",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"task-01/app.js",
+				"task-01/task-01.js",
+				"task-02/app.js",
+				"task-02/pre-task.js",
+				"task-02/task-02.js",
+				"task-03/pre-task.js",
+				"task-03/app.js",
+				"task-03/task-03.js",
+				"task-04/app.js",
+				"task-04/pre-task.js",
+				"task-04/task-04.js"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-01/app.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-01/task-01.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-02/app.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-02/pre-task.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-02/task-02.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-03/pre-task.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-03/app.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-03/task-03.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-04/app.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-04/pre-task.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-04/task-04.js"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

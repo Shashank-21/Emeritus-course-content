@@ -1,0 +1,30 @@
+{
+	"id": "7787203d-c554-6330-86fb-46af22d33378",
+	"title": "Task 2: Temperature Analysis Objective",
+	"files": [
+		{
+			"path": "task-02/app.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "task-02/pre-task.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "task-02/task-02.js",
+			"panel": 0,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree",
+	"path": [
+		"task-02/"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

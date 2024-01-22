@@ -1,0 +1,80 @@
+{
+	"type": "test",
+	"taskId": "test-1039550458",
+	"source": {
+		"name": "Comparing City Temperatures",
+		"showName": true,
+		"instructions": "#### Task Instructions\n\n1. **Implement the `findCityWithHighestAverage` Function**:\n\n   - Write a function that takes an array of city temperature data (`analyzedData`) and finds the city with the highest average temperature.\n   - Iterate through the `analyzedData` array to determine which city has the highest average temperature and return the city's name.\n\n2. **Implement the `findCityWithLowestAverage` Function**:\n\n   - Similarly, write a function to find the city with the lowest average temperature from the same data.\n   - This function should return the name of the city with the lowest average temperature.\n\n3. **Complete the `compareCityTemperatures` Function**:\n   - Use the above two functions within `compareCityTemperatures` to find and return an object with properties `cityHighestAvg` and `cityLowestAvg`.\n   - `cityHighestAvg` should hold the name of the city with the highest average temperature, and `cityLowestAvg` should hold the name of the city with the lowest average temperature.\n\nFor each of these functions, you'll be using the `analyzedData` array, which has the following properties:\n\n```javascript\n{\n   city: 'Name of the city, string',\n   averageTemperature: \"Average temperature of the city, number\",\n   maxTemperature: \"maximum temperature of the city, number\",\n   minTemperature: \"minimum temperature of the city, number\"\n }\n```",
+		"command": "node_modules/jest/bin/jest.js .guides/secure/task-03.test.js",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"task-01/app.js",
+				"task-01/task-01.js",
+				"task-02/app.js",
+				"task-02/pre-task.js",
+				"task-02/task-02.js",
+				"task-03/pre-task.js",
+				"task-03/app.js",
+				"task-03/task-03.js"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-01/app.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-01/task-01.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-02/app.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-02/pre-task.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-02/task-02.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-03/pre-task.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-03/app.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-03/task-03.js"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

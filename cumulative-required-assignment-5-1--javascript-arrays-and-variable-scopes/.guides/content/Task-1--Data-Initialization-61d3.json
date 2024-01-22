@@ -1,0 +1,25 @@
+{
+	"id": "61d3a911-f73b-e755-0545-73a03c386b39",
+	"title": "Task 1: Data Initialization",
+	"files": [
+		{
+			"path": "task-01/app.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "task-01/task-01.js",
+			"panel": 0,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree",
+	"path": [
+		"task-01/"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

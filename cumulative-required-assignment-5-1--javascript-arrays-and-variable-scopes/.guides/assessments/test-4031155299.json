@@ -1,0 +1,62 @@
+{
+	"type": "test",
+	"taskId": "test-4031155299",
+	"source": {
+		"name": "Temperature Analysis Objective",
+		"showName": true,
+		"instructions": "#### Task Instructions\n\n1. **Implement `calculateAverageTemperature` Function**:\n\n   - Write a function named `calculateAverageTemperature` that takes an array of temperatures and returns the average temperature.\n   - Use a loop to sum up all of the temperatures in the array, and then divide by the number of temperatures to find the average.\n\n2. **Implement the `findMaxTemperature` Function**:\n\n   - Write a function named `findMaxTemperature` that takes an array of temperatures and returns the highest temperature.\n   - Use a loop to find the maximum temperature in the array.\n\n3. **Implement the `findMinTemperature` Function**:\n\n   - Write a function named `findMinTemperature` that takes an array of temperatures and returns the lowest temperature.\n   - Use a loop to find the minimum temperature in the array.\n\n4. **Use the Functions in `analyzeCityTemperatures`**:\n   - The `analyzeCityTemperatures` takes one argument, `cityData`, which is the output of the `initializeCityData` you worked on in Task 1.\n   - For each city, calculate the average, maximum, and minimum temperatures using your newly created functions.\n   - Return an array of objects, with each containing the city name and its calculated temperature values. Each object should be in the form of:\n     ```js\n     {\n      city: 'City name, string',\n      averageTemperature: 'Calculated average temperature, number',\n      minTemperature: 'Calculated maximum temperature, number',\n      maxTemperature: 'Calculated minimum temperature, number',\n     }\n     ```",
+		"command": "node_modules/jest/bin/jest.js .guides/secure/task-02.test.js",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"task-01/app.js",
+				"task-01/task-01.js",
+				"task-02/app.js",
+				"task-02/pre-task.js",
+				"task-02/task-02.js"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-01/app.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-01/task-01.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-02/app.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-02/pre-task.js"
+				},
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-02/task-02.js"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}
