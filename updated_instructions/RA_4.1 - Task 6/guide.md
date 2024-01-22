@@ -44,9 +44,6 @@ Your restaurant now offers a special dinner combination on Friday evenings. Reco
 
 {Check It!|assessment}(test-3138118762)
 
-**Hint:**
-The `currentDay` variable stores a number that represents the day of the week. 0 stands for Sunday, 1 stands for Monday, and so on.
-
 |||guidance
 
 ```js
