@@ -3,7 +3,7 @@ const path = require("path");
 
 const { initializeCityData, getHighestAndLowestDays } = require(path.join(
   __dirname,
-  "../../task-04/task-04.js"
+  "task-04.js"
 ));
 
 describe("Day with Highest and Lowest Temperature Analysis", () => {
@@ -39,8 +39,12 @@ describe("Day with Highest and Lowest Temperature Analysis", () => {
     cityData.forEach((city, index) => {
       const lowestTemp = Math.min(...city.temperatureData);
       const dayWithLowestTemp = city.temperatureData.indexOf(lowestTemp);
-      expect(spy.mock.calls[index * 2][0]).toMatch(new RegExp(`${city.city}`));
-      expect(spy.mock.calls[index * 2][0]).toMatch(new RegExp(`Lowest|lowest`));
+      expect(spy.mock.calls[index * 2 + 1][0]).toMatch(
+        new RegExp(`${city.city}`)
+      );
+      expect(spy.mock.calls[index * 2 + 1][0]).toMatch(
+        new RegExp(`Lowest|lowest`)
+      );
       expect(spy.mock.calls[index * 2 + 1][0]).toMatch(
         new RegExp(`${dayWithLowestTemp + 1}`)
       );
