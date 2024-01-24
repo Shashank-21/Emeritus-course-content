@@ -2,12 +2,6 @@ Instructions:
 
 ## Part 1: `string-utils.js` Implementation
 
-Certainly! Here are the updated task instructions for implementing the `toTitleCase(str)` function, including the details of handling specific words as per the `nonCapitalizedWords` array:
-
----
-
-**Updated Task Instructions for Implementing `toTitleCase(str)` Function**
-
 **Objective**: Write a function named `toTitleCase(str)` in your JavaScript file. This function should convert a given string to 'title case', where the first letter of each significant word is capitalized. Certain smaller words (like connectors and prepositions) should remain in lowercase as specified in the `nonCapitalizedWords` array.
 
 **Details**:
