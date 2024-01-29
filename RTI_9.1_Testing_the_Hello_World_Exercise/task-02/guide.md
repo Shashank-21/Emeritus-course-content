@@ -1,6 +1,6 @@
 Instructions:
 
-## Part 1: `string-utils.js` Implementation
+## Part 1: Implementing the `isPalindrome` Function
 
 **Objective**: Complete the function `isPalindrome(str)`, in the file `string-utils.js` file that takes a string as an input and determines whether it is a palindrome. A palindrome is a word, phrase, or sequence that reads the same forwards and backwards (for example, "racecar" or "level").
 

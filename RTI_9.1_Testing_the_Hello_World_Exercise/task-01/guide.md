@@ -1,8 +1,8 @@
 Instructions:
 
-## Part 1: `string-utils.js` Implementation
+## Part 1: Implementing the `reverse` Function
 
-**Objective**: Complete the function `reverse(str)` in the file `string-utils.js` file that takes a string as an input and returns the reversed version of that string.
+**Objective**: Complete the function `reverse(str)`, in the file `string-utils.js` file, that takes a string as an input and returns the reversed version of that string.
 
 **Details**:
 
