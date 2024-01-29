@@ -1,8 +1,6 @@
 Instructions:
 
-Instructions:
-
-## Part 1: `string-utils.js` Implementation
+## Part 1: Implementing the `capitalizeWords` Function
 
 **Objective**: Complete the function `capitalizeWords(str)`, in the file `string-utils.js` file . This function should take a string as input, which represents a sentence, and capitalize the first letter of every word in the sentence. The function should then return the capitalized sentence.
 
@@ -29,7 +27,7 @@ Instructions:
 - To capitalize the sentence `"hello world"`, call `capitalize("hello world")`. The function will return `"Hello World"`.
 - To capitalize a single word like `"javascript"`, call `capitalize("javascript")`. The function will return `"Javascript"`.
 
-## Part 2: `string-utils.test.js` Test Cases
+## Part 2: Testing the `capitalizeWords` Function
 
 In `string-utils.test.js`, implement the `capitalizeWords` function tests:
 

@@ -23,7 +23,7 @@ Instructions:
 - Perform a comparison: `str === reversedStr`.
 - Based on this comparison, return `true` (if the string is a palindrome) or `false` (if the string is not a palindrome).
 
-## Part 2: `string-utils.test.js` Test Cases
+## Part 2: Testing the `isPalindrome` Function
 
 In `string-utils.test.js`, implement the `isPalindrome` function tests:
 

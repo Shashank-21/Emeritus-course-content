@@ -1,6 +1,6 @@
 Instructions:
 
-## Part 1: `string-utils.js` Implementation
+## Part 1: Implementing the `toTitleCase` Function
 
 **Objective**: Complete the function `toTitleCase(str)`, in the file `string-utils.js` file. This function should convert a given string to 'title case', where the first letter of each significant word is capitalized. Certain smaller words (like connectors and prepositions) should remain in lowercase as specified in the `nonCapitalizedWords` array.
 
@@ -33,7 +33,7 @@ Instructions:
 
 - To convert `"the quick brown fox jumps over the lazy dog"` to title case, call `toTitleCase("the quick brown fox jumps over the lazy dog")`. The function should return `"The Quick Brown Fox Jumps over the Lazy Dog"`, noting that "the" is capitalized only when it's the first word.
 
-## Part 2: `string-utils.test.js` Test Cases
+## Part 2: Testing the `toTitleCase` Function
 
 `toTitleCase` function tests:
 

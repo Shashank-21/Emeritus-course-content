@@ -18,7 +18,7 @@ Instructions:
 - After the loop completes, `reversedString` will contain the input string in reverse order.
 - Return `reversedString`.
 
-## Part 2: `string-utils.test.js` Test Cases
+## Part 2: Testing the `reverse` Function
 
 Once you've updated `string-utils.js`, it's time to test your functions in `string-utils.test.js`. Here, you're going to write the test for the `reverse` function that checks for the following:
 
