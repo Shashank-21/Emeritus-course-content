@@ -35,7 +35,7 @@ Instructions:
 
 ## Part 2: Testing the `toTitleCase` Function
 
-`toTitleCase` function tests:
+In `string-utils.test.js`, implement the `toTitleCase` function tests:
 
 1. The function should convert the string 'hello world' to 'Hello World'.
 2. The function should convert the string 'the quick brown fox jumps over the lazy dog' to 'The Quick Brown Fox Jumps over the Lazy Dog'.
