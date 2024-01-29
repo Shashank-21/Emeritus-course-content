@@ -4,7 +4,7 @@ Instructions:
 
 ## Part 1: `string-utils.js` Implementation
 
-**Objective**: Create a function named `capitalize(str)` in the `string-utils.js` file. This function should take a string as input, which represents a sentence, and capitalize the first letter of every word in the sentence. The function should then return the capitalized sentence.
+**Objective**: Complete the function `capitalizeWords(str)`, in the file `string-utils.js` file . This function should take a string as input, which represents a sentence, and capitalize the first letter of every word in the sentence. The function should then return the capitalized sentence.
 
 **Details**:
 
