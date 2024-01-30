@@ -1,0 +1,14 @@
+.welcome-card {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-card h1 {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  margin-bottom: 10px;
+}
