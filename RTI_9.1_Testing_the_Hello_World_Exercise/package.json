@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test1:json": "node_modules/jest/bin/jest.js task-01/string-utils.test.js --json --outputFile=tests/test-results-1.json > /dev/null 2>&1; node_modules/jest/bin/jest.js tests/task-01.test.js",
-    "test2:json": "node_modules/jest/bin/jest.js task-02/string-utils.test.js --json --outputFile=tests/test-results-2.json > /dev/null 2>&1",
-    "test3:json": "node_modules/jest/bin/jest.js task-03/string-utils.test.js --json --outputFile=tests/test-results-3.json > /dev/null 2>&1",
-    "test4:json": "node_modules/jest/bin/jest.js task-04/string-utils.test.js --json --outputFile=tests/test-results-4.json > /dev/null 2>&1",
+    "test2:json": "node_modules/jest/bin/jest.js task-02/string-utils.test.js --json --outputFile=tests/test-results-2.json > /dev/null 2>&1; node_modules/jest/bin/jest.js tests/task-02.test.js",
+    "test3:json": "node_modules/jest/bin/jest.js task-03/string-utils.test.js --json --outputFile=tests/test-results-3.json > /dev/null 2>&1; node_modules/jest/bin/jest.js tests/task-03.test.js",
+    "test4:json": "node_modules/jest/bin/jest.js task-04/string-utils.test.js --json --outputFile=tests/test-results-4.json > /dev/null 2>&1; node_modules/jest/bin/jest.js tests/task-04.test.js",
     "test:task-01": "node_modules/jest/bin/jest.js task-01/string-utils.test.js ",
     "test:task-02": "node_modules/jest/bin/jest.js task-02/string-utils.test.js ",
     "test:task-03": "node_modules/jest/bin/jest.js task-03/string-utils.test.js ",
