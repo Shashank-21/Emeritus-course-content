@@ -1,0 +1,29 @@
+.appContainer {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 20px;
+	padding: 40px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: stretch;
+	min-height: 100vh;
+	background-color: #f0f2f5;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.6;
+	color: #333;
+}
+
+h1 {
+	padding: 0px 3px;
+	margin-left: auto;
+	margin-left: auto;
+}
