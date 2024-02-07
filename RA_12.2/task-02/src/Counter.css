@@ -1,0 +1,94 @@
+.app-container {
+	font-family: 'Arial', sans-serif;
+	text-align: center;
+	padding: 40px;
+	color: #333;
+}
+
+.app-header {
+	margin-bottom: 30px;
+	color: #333333;
+}
+
+.counter-container {
+	background-color: #f9f9f9;
+	display: inline-block;
+	padding: 20px 40px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.counter-display {
+	font-size: 32px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+.increment-decrement-button {
+	font-size: 16px;
+	padding: 10px 20px;
+	margin: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: none;
+	background-color: #007bff;
+	color: white;
+	transition:
+		background-color 0.3s,
+		transform 0.3s;
+}
+
+.increment-decrement-button:hover {
+	background-color: #0056b3;
+}
+
+.increment-decrement-button:active {
+	background-color: #004094;
+	transform: translateY(1px);
+}
+
+.reset-button {
+	font-size: 16px;
+	padding: 10px 20px;
+	margin: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: none;
+	background-color: #dc3545;
+	color: white;
+	transition:
+		background-color 0.3s,
+		transform 0.3s;
+}
+
+.reset-button:hover {
+	background-color: #c82333;
+}
+
+.reset-button:active {
+	background-color: #a71d2a;
+	transform: translateY(1px);
+}
+
+.reset-button:focus {
+	outline: 2px solid #c82333;
+}
+
+.fruit-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px; /* Adjust the spacing between counters as needed */
+}
+
+.total-fruits {
+	margin-top: 30px;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #28a745;
+	border-radius: 5px;
+	display: inline-block;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
