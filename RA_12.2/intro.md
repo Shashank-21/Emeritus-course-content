@@ -24,5 +24,3 @@ By the end of this assignment, you will:
 - Develop an intuition for when and how to split component logic and responsibilities.
 
 This assignment will challenge you to think about component structure, state management, and the React rendering process. Prepare to sharpen your React skills and get a step closer to mastering functional components and hooks.
-
-Good luck, and let's start coding!
