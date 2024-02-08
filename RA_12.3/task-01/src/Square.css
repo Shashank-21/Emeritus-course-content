@@ -1,0 +1,21 @@
+.square {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	font-size: 20px;
+}
+
+.remove-square {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: rgba(255, 255, 255, 0.7);
+	border: none;
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	font-size: 18px;
+}
