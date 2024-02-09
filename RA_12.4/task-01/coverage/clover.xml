@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1707485132385" clover="3.2.0">
+  <project timestamp="1707485132385" name="All files">
+    <metrics statements="23" coveredstatements="2" conditionals="6" coveredconditionals="2" methods="15" coveredmethods="2" elements="44" coveredelements="6" complexity="0" loc="23" ncloc="23" packages="1" files="4" classes="4"/>
+    <file name="App.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_12.4/task-01/src/App.js">
+      <metrics statements="10" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="0"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+    </file>
+    <file name="Task.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_12.4/task-01/src/Task.js">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+    </file>
+    <file name="Task.solution.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_12.4/task-01/src/Task.solution.js">
+      <metrics statements="3" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+    </file>
+    <file name="TaskForm.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_12.4/task-01/src/TaskForm.js">
+      <metrics statements="8" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
