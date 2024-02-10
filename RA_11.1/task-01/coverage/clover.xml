@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1707569531738" clover="3.2.0">
+  <project timestamp="1707569531738" name="All files">
+    <metrics statements="8" coveredstatements="4" conditionals="4" coveredconditionals="2" methods="5" coveredmethods="2" elements="17" coveredelements="8" complexity="0" loc="8" ncloc="8" packages="1" files="3" classes="3"/>
+    <file name="App.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_11.1/task-01/src/App.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+    <file name="LikeButton.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_11.1/task-01/src/LikeButton.js">
+      <metrics statements="3" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="10" count="0" type="stmt"/>
+    </file>
+    <file name="LikeButton.solution.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_11.1/task-01/src/LikeButton.solution.js">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
