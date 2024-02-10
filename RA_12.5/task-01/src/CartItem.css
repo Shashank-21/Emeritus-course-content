@@ -1,0 +1,82 @@
+.cart-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+	margin-bottom: 10px;
+	background-color: #f9f9f9;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item-info {
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.cart-item-info h4,
+.cart-item-info p {
+	font-size: 1rem;
+	margin: 0;
+	padding-right: 10px;
+}
+
+.cart-item-info p {
+	margin-top: 5px;
+	color: #666;
+	font-size: 0.9rem;
+}
+
+.controls {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.controls button {
+	background-color: #eee;
+	color: #333;
+	border: none;
+	padding: 6px 12px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+.controls button:hover {
+	background-color: #ddd;
+}
+
+.cart-item-subtotal {
+	margin-left: auto;
+	padding-left: 20px;
+	font-weight: bold;
+	font-size: 1rem;
+	color: #333;
+}
+
+.remove-item {
+	background-color: #ff4d4d;
+	color: white;
+	border: none;
+	padding: 6px 12px;
+	margin-left: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition:
+		background-color 0.2s,
+		transform 0.1s;
+}
+
+.remove-item:hover {
+	background-color: #cc0000;
+	transform: scale(1.05);
+}
+
+/* Ensure text and buttons are vertically aligned for a cleaner look */
+.cart-item-info,
+.controls,
+.cart-item-subtotal {
+	display: flex;
+	align-items: center;
+}

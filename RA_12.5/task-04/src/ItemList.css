@@ -1,0 +1,14 @@
+.item-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	gap: 20px;
+	width: 100%;
+	max-width: 700px; /* Adjust based on your preference */
+}
+
+@media (min-width: 1200px) {
+	.item-list {
+		max-width: none;
+		flex: 1;
+	}
+}

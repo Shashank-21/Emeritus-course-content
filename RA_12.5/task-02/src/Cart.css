@@ -1,0 +1,21 @@
+.cart {
+	width: 100%;
+	max-width: 500px;
+	border-radius: 8px;
+	background-color: #f8f9fa;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 1200px) {
+	.cart {
+		flex: 1;
+	}
+}
+
+.cart h2 {
+	margin-bottom: 20px;
+	color: #333;
+	width: 100%;
+	background-color: #dfe0e1;
+	padding: 10px;
+}
