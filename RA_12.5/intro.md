@@ -1,4 +1,4 @@
-### Assignment: Building a React Shopping Cart Application
+### Building a React Shopping Cart Application
 
 #### Introduction
 
