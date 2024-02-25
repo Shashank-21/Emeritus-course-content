@@ -1,0 +1,42 @@
+.App {
+	text-align: center;
+	font-family: 'Arial', sans-serif;
+	margin-top: 20px;
+}
+
+.WordDisplay {
+	font-size: 24px;
+	letter-spacing: 2px;
+	margin: 20px 0;
+}
+
+.Keyboard {
+	margin: 20px 0;
+}
+
+.LetterButton {
+	margin: 5px;
+	padding: 10px;
+	width: 45px;
+	height: 45px;
+	font-size: 20px;
+	background-color: #f0f0f0;
+	border: 1px solid #d4d4d4;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.LetterButton:hover {
+	background-color: #e8e8e8;
+}
+
+.LetterButton:disabled {
+	color: #9c9c9c;
+	border-color: #9c9c9c;
+	cursor: not-allowed;
+}
+
+.HangmanStatus {
+	margin: 20px 0;
+	font-size: 20px;
+}
