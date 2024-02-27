@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1709021279064" clover="3.2.0">
+  <project timestamp="1709021279064" name="All files">
+    <metrics statements="34" coveredstatements="20" conditionals="5" coveredconditionals="2" methods="14" coveredmethods="8" elements="53" coveredelements="30" complexity="0" loc="34" ncloc="34" packages="1" files="4" classes="4"/>
+    <file name="App.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_15.2/task-01/src/App.js">
+      <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+    </file>
+    <file name="App.solution.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_15.2/task-01/src/App.solution.js">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="8" count="4" type="stmt"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="13" count="3" type="stmt"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="17" count="3" type="stmt"/>
+      <line num="20" count="4" type="stmt"/>
+    </file>
+    <file name="PokemonItem.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_15.2/task-01/src/PokemonItem.js">
+      <metrics statements="14" coveredstatements="8" conditionals="5" coveredconditionals="2" methods="6" coveredmethods="3"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="50" count="0" type="stmt"/>
+      <line num="60" count="0" type="stmt"/>
+    </file>
+    <file name="PokemonList.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_15.2/task-01/src/PokemonList.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="4" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
