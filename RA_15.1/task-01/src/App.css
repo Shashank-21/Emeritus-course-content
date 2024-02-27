@@ -1,0 +1,59 @@
+/* App-wide styles */
+.App {
+	font-family: 'Arial', sans-serif;
+	text-align: center;
+	color: #333;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+.App-header {
+	background-color: #007bff;
+	color: #fff;
+	padding: 20px 0;
+	margin-bottom: 30px;
+	font-size: 24px;
+}
+
+/* Post List styles */
+.post-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.post {
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 20px;
+	margin-bottom: 20px;
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.post:hover {
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.post-title {
+	color: #007bff;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.post-body {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Add responsive design */
+@media (max-width: 768px) {
+	.App {
+		max-width: 100%;
+		padding: 0 10px;
+	}
+
+	.post {
+		padding: 15px;
+	}
+}

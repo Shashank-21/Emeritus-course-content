@@ -1,0 +1,107 @@
+.App {
+	font-family: 'Arial', sans-serif;
+	text-align: center;
+	color: #333;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+.App-header {
+	background-color: #007bff;
+	color: #fff;
+	padding: 20px 0;
+	margin-bottom: 30px;
+	font-size: 24px;
+}
+
+/* Post List styles */
+.post-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.post {
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 20px;
+	margin-bottom: 20px;
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.post:hover {
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.post-title {
+	color: #007bff;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.post-body {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Add responsive design */
+@media (max-width: 768px) {
+	.App {
+		max-width: 100%;
+		padding: 0 10px;
+	}
+
+	.post {
+		padding: 15px;
+	}
+}
+
+/* Button Styles */
+button {
+	background-color: #007bff; /* Bootstrap primary color */
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition:
+		background-color 0.3s,
+		transform 0.2s;
+}
+
+button:hover {
+	background-color: #0056b3; /* A slightly darker shade for hover state */
+	transform: translateY(-2px); /* A subtle lift effect */
+}
+
+button:disabled {
+	background-color: #cccccc;
+	cursor: not-allowed;
+}
+
+button:active {
+	transform: translateY(1px); /* Press down effect */
+}
+
+.comments-section {
+	margin-top: 20px;
+}
+
+.comment {
+	background-color: #f0f0f0;
+	border-radius: 4px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.comment h3 {
+	margin-top: 0;
+	font-size: 16px;
+}
+
+.comment p {
+	font-size: 14px;
+	line-height: 1.4;
+}
