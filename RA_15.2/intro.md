@@ -1,4 +1,4 @@
-# Assignment: Fetching and Paginating Data
+# Assignment: Fetch and Paginate Data
 
 ## Introduction
 
