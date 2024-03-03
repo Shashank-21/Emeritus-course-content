@@ -12,13 +12,12 @@ Your current grid allows adding squares but lacks the option to remove them. Imp
 
 1. **Implementing the Removal Function in the Grid Component:**
 
-   - Create a function named `handleRemoveSquare` that updates the grid's state to remove a square. This function should take an `id` as its parameter, identifying which square to remove.
-   - Use the `filter` method on your current state array to return a new array excluding the square with the given `id`. The `filter` method creates a new array filled with elements that pass a test provided by a function.
+   - Inside the `removeSquare` function, use the `filter` method on your current state array to return a new array excluding the square with the given `id`. The `filter` method creates a new array filled with elements that pass a test provided by a function.
 
    **Example Context:** If you were managing a list of items in a todo list, and you wanted to remove an item, you might use `filter` like this:
 
    ```javascript
-   const handleRemoveItem = (itemId) => {
+   const removeItem = (itemId) => {
    	setItems((currentItems) =>
    		currentItems.filter((item) => item.id !== itemId)
    	);
@@ -27,13 +26,13 @@ Your current grid allows adding squares but lacks the option to remove them. Imp
 
 2. **Passing the Removal Function to Each Square:**
 
-   - Modify the rendering of each `Square` component within your grid to include an `onRemove` prop. This prop will pass the `handleRemoveSquare` function, allowing each `Square` component to invoke it when needed.
+   - Modify the rendering of each `Square` component within your grid to include an `onRemove` prop. This prop will pass the `removeSquare` function, allowing each `Square` component to invoke it when needed.
    - Since you need the `id` of the square to remove it, ensure your `onRemove` prop is a function that calls `handleRemoveSquare` with the correct `id`.
 
    **Example Context:** In a todo list app, where each todo item has a delete button, you might pass a deletion function down to each todo item component like so:
 
    ```jsx
-   <TodoItem key={todo.id} onDelete={() => handleRemoveItem(todo.id)} />
+   <TodoItem key={todo.id} onDelete={() => removeItem(todo.id)} />
    ```
 
 ### Expected Outcome:

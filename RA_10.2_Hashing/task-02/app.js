@@ -9,13 +9,19 @@ async function runVerification() {
   const inputPasswordNoMatch = "incorrectPassword";
 
   const doesMatch1 = await verifyPassword(storedPassword1, inputPasswordMatch);
-  console.log("First password match:", doesMatch1); // Expected: true
+  console.log(
+    `Comparing stored password ${storedPassword1} against input password ${inputPasswordMatch}`
+  );
+  console.log("First password match:", doesMatch1);
 
   const doesMatch2 = await verifyPassword(
     storedPassword2,
     inputPasswordNoMatch
   );
-  console.log("Second password match:", doesMatch2); // Expected: false
+  console.log(
+    `Comparing stored password ${storedPassword2} against input password ${inputPasswordNoMatch}`
+  );
+  console.log("Second password match:", doesMatch2);
 }
 
 runVerification();

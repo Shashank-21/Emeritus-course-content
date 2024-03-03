@@ -2,7 +2,7 @@
 
 Welcome to your next assignment, where you will dive into the dynamic world of React and harness the power of React Hooks. Your journey will take you through the practical application of the `useState` hook, enabling you to manage state within functional components effectively.
 
-In this assignment, titled "Rendering Object Properties With React Hooks," you will build a vibrant fruit counter application. This application will not only help you understand the intricacies of state management but also give you hands-on experience with updating complex state objects and rendering their properties in real time.
+In this assignment, you will build a vibrant fruit counter application. This application will not only help you understand the intricacies of state management but also give you hands-on experience with updating complex state objects and rendering their properties in real time.
 
 #### Background
 
