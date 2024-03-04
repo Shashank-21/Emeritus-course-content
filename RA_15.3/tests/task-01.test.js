@@ -1,27 +1,53 @@
-const { loadContent } = require("../task-01/script.js");
+const { TextEncoder, TextDecoder } = require("util");
+global.TextEncoder = TextEncoder;
+// @ts-expect-error
+global.TextDecoder = TextDecoder;
+const { JSDOM } = require("jsdom");
+const fs = require("fs");
+const path = require("path");
 
-// Mock the global fetch function
-global.fetch = jest.fn((url) =>
-  Promise.resolve({
-    text: () => Promise.resolve(`Mocked content for ${url}`),
-  })
-);
+describe("loadContent function call", () => {
+  it('should call loadContent with "about.html" on clicking the element with id "about"', async () => {
+    const htmlFilePath = path.join(__dirname, "../task-01/index.html");
+    const htmlContent = fs.readFileSync(htmlFilePath, { encoding: "utf-8" });
 
-describe("loadContent function", () => {
-  beforeEach(() => {
-    document.body.innerHTML = ` <div id="content"></div>
-    <button id="about">About</button>`;
-    fetch.mockClear();
-  });
+    const scriptFilePath = path.join(
+      __dirname,
+      "../task-01/script.solution.js"
+    ); // Adjust the file name as necessary
+    const scriptContent = fs.readFileSync(scriptFilePath, {
+      encoding: "utf-8",
+    });
 
-  test("loads and displays content from a specified HTML file", async () => {
-    const fileName = "about.html";
-    await loadContent(fileName);
+    const dom = new JSDOM(htmlContent, {
+      runScripts: "dangerously",
+      resources: "usable",
+      url: "http://localhost", // Set a base URL for the JSDOM environment
+    });
 
-    expect(fetch).toHaveBeenCalledWith(fileName);
+    const window = dom.window;
+    const document = window.document;
 
-    expect(document.getElementById("content").innerHTML).toBe(
-      `Mocked content for ${fileName}`
+    global.fetch = jest.fn().mockImplementation(() =>
+      Promise.resolve({
+        text: () => Promise.resolve("Dummy content"),
+      })
     );
+
+    const scriptEl = document.createElement("script");
+    scriptEl.textContent = scriptContent;
+    document.body.appendChild(scriptEl);
+
+    const aboutButton = document.getElementById("about");
+    await new Promise((resolve) => {
+      aboutButton.addEventListener("click", () => {
+        window.loadContent("about.html").then(resolve);
+      });
+      aboutButton.click();
+    });
+
+    expect(global.fetch).toHaveBeenCalledWith("about.html");
+
+    expect(document.getElementById("content").innerHTML).toBe("Dummy content");
   });
 });

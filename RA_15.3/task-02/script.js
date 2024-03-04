@@ -1,5 +1,5 @@
 function loadContent(page) {
-  fetch(page)
+  return fetch(page)
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("content").innerHTML = data;
