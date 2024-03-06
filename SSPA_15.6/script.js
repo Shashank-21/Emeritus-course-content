@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       try {
         // Todo: Use fetch to retrieve the page content and assign it to a variable
 
-        // Todo: Extract the text from the response and assign it to a variable
+        // Todo: Extract the text from the response and assign it to the variable `data`
 
         document.getElementById("content").innerHTML = data;
       } catch (error) {
