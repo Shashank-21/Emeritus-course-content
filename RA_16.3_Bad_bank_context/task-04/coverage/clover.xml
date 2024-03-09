@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1709974538496" clover="3.2.0">
+  <project timestamp="1709974538496" name="All files">
+    <metrics statements="18" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="1" elements="30" coveredelements="5" complexity="0" loc="18" ncloc="18" packages="1" files="12" classes="12"/>
+    <file name="App.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.3_Bad_bank_context/task-01/src/App.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="14" count="0" type="stmt"/>
+    </file>
+    <file name="App.solution.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.3_Bad_bank_context/task-01/src/App.solution.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="13" count="0" type="stmt"/>
+    </file>
+    <file name="alldata.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.3_Bad_bank_context/task-01/src/alldata.js">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+    </file>
+    <file name="balance.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.3_Bad_bank_context/task-01/src/balance.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+    <file name="balance.solution.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.3_Bad_bank_context/task-01/src/balance.solution.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+    </file>
+    <file name="context.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.3_Bad_bank_context/task-01/src/context.js">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+    </file>
+    <file name="createaccount.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.3_Bad_bank_context/task-01/src/createaccount.js">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+    </file>
+    <file name="deposit.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.3_Bad_bank_context/task-01/src/deposit.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="3" count="0" type="stmt"/>
+    </file>
+    <file name="home.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.3_Bad_bank_context/task-01/src/home.js">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+    </file>
+    <file name="login.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.3_Bad_bank_context/task-01/src/login.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="3" count="0" type="stmt"/>
+    </file>
+    <file name="navbar.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.3_Bad_bank_context/task-01/src/navbar.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="4" count="0" type="stmt"/>
+    </file>
+    <file name="withdraw.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.3_Bad_bank_context/task-01/src/withdraw.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="4" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
