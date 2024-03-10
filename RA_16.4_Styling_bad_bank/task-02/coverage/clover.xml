@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1710054096743" clover="3.2.0">
+  <project timestamp="1710054096743" name="All files">
+    <metrics statements="24" coveredstatements="1" conditionals="10" coveredconditionals="0" methods="13" coveredmethods="1" elements="47" coveredelements="2" complexity="0" loc="24" ncloc="24" packages="1" files="12" classes="12"/>
+    <file name="App.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.4_Styling_bad_bank/task-02/src/App.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="14" count="0" type="stmt"/>
+    </file>
+    <file name="alldata.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.4_Styling_bad_bank/task-02/src/alldata.js">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+    </file>
+    <file name="balance.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.4_Styling_bad_bank/task-02/src/balance.js">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+    <file name="card.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.4_Styling_bad_bank/task-02/src/card.js">
+      <metrics statements="4" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="5" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+    </file>
+    <file name="context.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.4_Styling_bad_bank/task-02/src/context.js">
+      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+    </file>
+    <file name="createaccount.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.4_Styling_bad_bank/task-02/src/createaccount.js">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+    </file>
+    <file name="deposit.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.4_Styling_bad_bank/task-02/src/deposit.js">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+    <file name="home.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.4_Styling_bad_bank/task-02/src/home.js">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+    <file name="login.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.4_Styling_bad_bank/task-02/src/login.js">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+    <file name="navbar.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.4_Styling_bad_bank/task-02/src/navbar.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="4" count="3" type="stmt"/>
+    </file>
+    <file name="navbar.solution.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.4_Styling_bad_bank/task-02/src/navbar.solution.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="4" count="0" type="stmt"/>
+    </file>
+    <file name="withdraw.js" path="/Users/shashankbr/MO-PCCO.R3-assignment-files/RA_16.4_Styling_bad_bank/task-02/src/withdraw.js">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
