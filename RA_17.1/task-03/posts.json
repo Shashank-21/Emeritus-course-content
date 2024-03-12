@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Post 1",
+    "content": "Content of post 1"
+  },
+  {
+    "id": 2,
+    "title": "Post 2",
+    "content": "Content of post 2"
+  },
+  {
+    "id": 3,
+    "title": "New Post",
+    "content": "Content of the new post"
+  },
+  {
+    "id": 4,
+    "title": "User Test Post",
+    "content": "This is a test post by user"
+  }
+]
