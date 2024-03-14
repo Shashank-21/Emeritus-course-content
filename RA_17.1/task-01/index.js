@@ -8,6 +8,7 @@ app.use(bodyParser.json());
 app.use("/login", authRoutes);
 
 const port = process.env.PORT || 3000;
+
 const server = app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });

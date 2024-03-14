@@ -22,5 +22,5 @@ Click on the 'TRY IT' button to test your code.
 
 Try it instructions:
 
-- First run chmod +x getposts.sh
+- First run chmod +x get_posts.sh
 - Command: './get_posts.sh'
