@@ -1,26 +1,18 @@
-The Tower of Hanoi is a classic mathematical puzzle where you have three rods and a stack of disks. The objective of the puzzle is to move the entire stack to another rod, following these rules:
-Only one disk can be moved at a time.
-A disk can only be moved if it is on top of the stack.
-A larger disk cannot be placed on top of a smaller disk.
+**Objective:** Complete the `moveDisks` function to solve the Tower of Hanoi problem using recursion.
 
-Instructions:
-The Tower of Hanoi can be solved using a recursive algorithm. A recursive algorithm is a function that calls itself. In the case of the Tower of Hanoi, the `moveDisks()` function calls itself recursively to move the disks from one rod to another.
-For this assignment, you will need to fill out the `moveDisks()` function in the `hanoi.js` file. The function should take four arguments: the number of disks to move, the source rod, the destination rod and the auxiliary (or the spare) rod. The function should return nothing.
-Here is some pseudocode for the `moveDisks()` function:
+1. **Understand the Base Case**:
 
-```
-moveDisks(n, source, destination, spare):
-  if n is 1:
-    # Move the disk from the source rod to the destination rod.
-  else:
-    # Move the top n-1 disks from the source rod to the spare rod.
-    moveDisks(n-1, source, spare, destination)
+   - The base case of the recursion occurs when there is only one disk to move (`n === 1`).
+   - In this case, you need to move the disk directly from the source tower to the target tower.
+   - Implement the following steps inside the `if (n === 1)` block:
+     1. **Move the Disk**: Write a function call to `moveDisk` with `source` and `target` as their arguments. This line simulates moving a single disk from the source tower to the target tower.
+     2. **Log the Towers**: Use `console.log(towers);` to print the current state of the towers after the move. This helps in visualizing the steps of the algorithm.
+     3. **Exit the Function**: The `return;` statement terminates the execution of the function for the base case.
 
-
-    # Move the largest disk from the source rod to the destination rod.
-    moveDisks(1, source, destination, spare)
-
-
-    # Move the top n-1 disks from the spare rod to the destination rod.
-    moveDisks(n-1, spare, destination, source)
-```
+2. **Implement the Recursive Logic**:
+   - When there are `n` disks to move, the problem is solved recursively by moving `n-1` disks around among the towers.
+   - Follow these steps to implement the recursive logic:
+     1. **Move `n-1` Disks from the `source` tower to the `spare` tower using the `target` tower as the spare with help of the `moveDisks` function**: Call `moveDisks(n - 1, source, spare, target);`. This step recursively moves `n-1` disks from the source tower to the spare tower, using the target tower as an intermediate holding area.
+     2. **Move the `nth` Disk to the `target` tower using the `moveDisk` function**: Once the above step is complete, the largest disk (`nth` disk) can be moved directly to the target tower. Implement this by calling `moveDisk(source, target);`.
+     3. **Log the Towers**: Use `console.log(towers);` to print the state of the towers after moving the nth disk.
+     4. 1. **Move `n-1` Disks from the `spare` tower to the `target` tower using the `source` tower as the spare with help of the `moveDisks` function**: Finally, move the `n-1` disks from the spare tower to the target tower, using the source tower as the spare. Call `moveDisks(n - 1, spare, target, source);` to complete this step.
