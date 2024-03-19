@@ -17,7 +17,11 @@ This task focuses on establishing a connection to MongoDB and sending a successf
 - You'll be filling in the missing lines within the `try` block.
 - The starter code already includes the `app.get` function and basic error handling.
 
-Click on the try it button to check your code after writing it.
+**Testing Instructions**
+
+- In the terminal, run the command `npm run start`
+- Open a separate terminal window
+- Click on the try it button to check your code after writing it.
 
 **Try It Command**
 

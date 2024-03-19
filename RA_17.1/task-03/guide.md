@@ -19,7 +19,9 @@ You are provided with a partially implemented middleware function named `isAdmin
 
 **Testing Your Implementation:**
 
-Click on the 'Try it' button to test your implementation
+- In the terminal, run the command `npm run start`
+- Open a separate terminal window
+- Click on the 'Try it' button to test your implementation
 
 Try it instructions:
 

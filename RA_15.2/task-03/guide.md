@@ -7,5 +7,5 @@ Implement dynamic pagination in a React application that displays a list of Pok�
 #### Instructions
 
 1. **Calculate Offset for API Request**
-   - Modify the `fetchPokemons` async function to calculate the `offset` using the current page number and the predefined limit of items (Pokémon) per page. The formula for the offset is `(currentPage - 1) * limit`.
+   - Modify the `fetchPokemons` async function to calculate the `offset` using the current page number and the predefined limit of items (Pokémon) per page. The `offset` parameter gives the id or the serial number of the first item that needs to be fetched from the api. The formula for the offset is `(currentPage - 1) * limit`.
    - Update the API request URL to include both the `limit` and the newly calculated `offset` as query parameters. This adjustment ensures that the application fetches the correct segment of Pokémon data corresponding to the selected page.

@@ -20,6 +20,12 @@
    - Indent code properly for readability.
    - Add comments to explain the purpose of different code blocks.
 
+**Testing Instructions**
+
+- In the terminal, run the command `npm run start`
+- Open a separate terminal window
+- Click on the `Try it` button
+
 **Try it command:**
 
 ```sh

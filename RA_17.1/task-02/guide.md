@@ -18,7 +18,9 @@ In the provided `verifyToken.js` file, you'll find the skeleton of a middleware 
 
 **Testing Your Implementation:**
 
-Click on the 'TRY IT' button to test your code.
+- In the terminal, run the command `npm run start`
+- Open a separate terminal window
+- Click on the 'TRY IT' button to test your code.
 
 Try it instructions:
 
