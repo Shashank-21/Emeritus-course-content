@@ -12,7 +12,6 @@ function BookDetails({ book }) {
         const response = await axios.get(
           `http://localhost:4000/books/${book._id}`
         );
-        setReview("");
         setDetails(response.data);
       } catch (error) {
         console.error("Error fetching book details:", error);
