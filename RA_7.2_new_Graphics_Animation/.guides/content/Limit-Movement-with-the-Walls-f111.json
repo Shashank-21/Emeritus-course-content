@@ -1,0 +1,29 @@
+{
+	"id": "f111df3b-f141-3e41-a096-4378a0e0af1a",
+	"title": "Limit Movement with the Walls",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "task-03/check-walls.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "#preview: task-03/index.html",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "3-cell-tree",
+	"path": [
+		"task-03/"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": false,
+	"learningObjectives": ""
+}

@@ -1,0 +1,29 @@
+{
+	"id": "44b676c3-16d2-91f4-6836-140ad2b5bc1e",
+	"title": "Graphics Animation of Random Movement",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "task-01/random-movement.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "#preview: task-01/index.html",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"path": [
+		"task-01/"
+	],
+	"contentType": "markdown",
+	"type": "page",
+	"teacherOnly": false,
+	"closeTerminalSession": false,
+	"learningObjectives": "",
+	"layout": "3-cell-tree"
+}

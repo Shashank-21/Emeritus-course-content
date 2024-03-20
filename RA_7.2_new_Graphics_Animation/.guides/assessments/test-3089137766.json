@@ -1,0 +1,46 @@
+{
+	"type": "test",
+	"taskId": "test-3089137766",
+	"source": {
+		"name": "Task 3",
+		"showName": true,
+		"instructions": "**Total Points: 4**\n\nIn the `check-walls.js` file, ensure the following:\n- In case the ball goes beyond the left wall (`x < 0`), update the x coordinate to match the left wall, and reverse the direction of `velocity_x`.\n- In case the ball goes beyond the right wall (`x > rectangleWidth - size`), update the x coordinate to match the right wall, and reverse the direction of `velocity_x`.\n- In case the ball goes beyond the top wall (`y < 0`), update the y coordinate to match the top wall, and reverse the direction of `velocity_y`.\n- In case the ball goes beyond the bottom wall (`y > rectangleHeight - size`), update the y coordinate to match the bottom wall, and reverse the direction of `velocity_y`.",
+		"command": "node_modules/jest/bin/jest.js .guides/secure/task-3-tests/task-03.test.js --json --outputFile=.guides/secure/task-3-tests/test-results-3.json > /dev/null 2>&1; node .guides/secure/task-3-tests/processTestResult3.js",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 4,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"task-03/check-walls.js",
+				"task-03/index.html",
+				"task-03/app.js",
+				"task-03/styles.css"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-03/check-walls.js"
+				},
+				{
+					"type": "preview",
+					"panelNumber": 1,
+					"content": "task-03/index.html"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

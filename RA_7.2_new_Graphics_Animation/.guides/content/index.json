@@ -1,0 +1,22 @@
+{
+	"title": "Required Assignment 7.2: Graphics Animation",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Graphics-Animation-of-Random-Movement-44b6",
+		"Factoring-in-Velocity-0602",
+		"Limit-Movement-with-the-Walls-f111",
+		"Making-Movements-Realistic---Projectile-Motion-1554",
+		"Switch-between-Random-and-Projectile-Motion-c745"
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"type": "test",
+	"taskId": "test-3275088303",
+	"source": {
+		"name": "Task 2",
+		"showName": true,
+		"instructions": "**Total Points: 2**\n\nIn the `factor-velocity.js`, your task is to add the corresponding value of velocity to each coordinate. For instance, to update the `x` coordinate of the `i`th ball, we add `velocity_x[i]` to `x[i]`.",
+		"command": "node_modules/jest/bin/jest.js .guides/secure/task-2-tests/task-02.test.js --json --outputFile=.guides/secure/task-2-tests/test-results-2.json > /dev/null 2>&1; node .guides/secure/task-2-tests/processTestResult2.js",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 2,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"task-02/factor-velocity.js",
+				"task-02/index.html",
+				"task-02/app.js",
+				"task-02/styles.css"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-02/factor-velocity.js"
+				},
+				{
+					"type": "preview",
+					"panelNumber": 1,
+					"content": "task-02/index.html"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

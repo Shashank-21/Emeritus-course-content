@@ -1,0 +1,46 @@
+{
+	"type": "test",
+	"taskId": "test-771162067",
+	"source": {
+		"name": "Task 5",
+		"showName": true,
+		"instructions": "**Total Points: 3**\n\nNavigate to the `random-projectile-switch.js` file and find the `toggleMotion()` function. Inside the function:\n- Change the value of `motionType` depending on its current value. If it's \"Random\" currently, it should be changed to \"Projectile\" and vice-versa.\n- Update the text of the button and the paragraph element when the `motionType` variable gets changed.\n- Simulate the type of motion you just switched to.",
+		"command": "node_modules/jest/bin/jest.js .guides/secure/task-5-tests/task-05.test.js --json --outputFile=.guides/secure/task-5-tests/test-results-5.json > /dev/null 2>&1; node .guides/secure/task-5-tests/processTestResult5.js",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 3,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"task-05/random-projectile-switch.js",
+				"task-05/index.html",
+				"task-05/app.js",
+				"task-05/styles.css"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-05/random-projectile-switch.js"
+				},
+				{
+					"type": "preview",
+					"panelNumber": 1,
+					"content": "task-05/index.html"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"type": "test",
+	"taskId": "test-1257066168",
+	"source": {
+		"name": "Task 1",
+		"showName": true,
+		"instructions": "**Total Points: 4**\n\n**Task 1: Experiment with Random Movement**\n- Locate the update function in random-movement.js.\n- In the update function, particles move in random directions with a specified step size. The x and y positions are updated with random values.\n- Adjust the rectangle width and height to adjust the size of the rectangle\n- Adjust the step size and test how it affects particle movement. \n",
+		"command": "node_modules/jest/bin/jest.js .guides/secure/task-1-tests/task-01.test.js --json --outputFile=.guides/secure/task-1-tests/test-results-1.json > /dev/null 2>&1; node .guides/secure/task-1-tests/processTestResult1.js",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 4,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"task-01/random-movement.js",
+				"task-01/index.html",
+				"task-01/app.js",
+				"task-01/styles.css"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-01/random-movement.js"
+				},
+				{
+					"type": "preview",
+					"panelNumber": 1,
+					"content": "task-01/index.html"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

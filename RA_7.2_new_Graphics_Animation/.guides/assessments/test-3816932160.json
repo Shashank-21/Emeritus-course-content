@@ -1,0 +1,46 @@
+{
+	"type": "test",
+	"taskId": "test-3816932160",
+	"source": {
+		"name": "Task 4",
+		"showName": true,
+		"instructions": "**Total Points: 4**\n\nIn the `update` function of `projectile-motion.js`, do the following:\n- Update the value of the x coordinate of each ball (denoted as `x[i]`) by adding the value of the corresponding `velocity_x` value (`velocity_x[i]`).\n- Add the value of `gravity` to the value of `velocity_y`.\n- Update the value of the y coordinate of each ball (denoted as `y[i]`) by adding the value of the corresponding `velocity_y` value (`velocity_y[i]`).",
+		"command": "node_modules/jest/bin/jest.js .guides/secure/task-4-tests/task-04.test.js --json --outputFile=.guides/secure/task-4-tests/test-results-4.json > /dev/null 2>&1; node .guides/secure/task-4-tests/processTestResult4.js",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 4,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"task-04/projectile-motion.js",
+				"task-04/index.html",
+				"task-04/app.js",
+				"task-04/styles.css"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "task-04/projectile-motion.js"
+				},
+				{
+					"type": "preview",
+					"panelNumber": 1,
+					"content": "task-04/index.html"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

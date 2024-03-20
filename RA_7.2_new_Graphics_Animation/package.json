@@ -1,0 +1,35 @@
+{
+	"name": "graphics-animation",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test:task-01": "npx jest task-01.test.js --json --outputFile=.guides/secure/task-1-tests/test-results-1.json > /dev/null 2>&1; npm run process-test-1",
+		"process-test-1": "node .guides/secure/task-1-tests/processTestResult1.js",
+		"task-01": "node task-01/task-01.js",
+		"test:task-02": "npx jest task-02.test.js --json --outputFile=.guides/secure/task-2-tests/test-results-2.json > /dev/null 2>&1; npm run process-test-2",
+		"process-test-2": "node .guides/secure/task-2-tests/processTestResult2.js",
+		"task-02": "node task-02/task-02.js",
+		"test:task-03": "npx jest task-03.test.js --json --outputFile=.guides/secure/task-3-tests/test-results-3.json > /dev/null 2>&1; npm run process-test-3",
+		"process-test-3": "node .guides/secure/task-3-tests/processTestResult3.js",
+		"task-03": "node task-03/task-03.js",
+		"test:task-04": "npx jest task-04.test.js --json --outputFile=.guides/secure/task-4-tests/test-results-4.json > /dev/null 2>&1; npm run process-test-4",
+		"process-test-4": "node .guides/secure/task-4-tests/processTestResult4.js",
+		"task-04": "node task-04/task-04.js",
+		"test:task-05": "npx jest task-05.test.js --json --outputFile=.guides/secure/task-5-tests/test-results-5.json > /dev/null 2>&1; npm run process-test-5",
+		"process-test-5": "node .guides/secure/task-5-tests/processTestResult5.js",
+		"task-05": "node task-05/task-05.js",
+		"setup": "mkdir .guides/secure; mkdir task-01; touch task-01/task-01.js; touch task-01/index.html; touch task-01/styles.css; touch task-01/index.html; touch task-01/app.js;\n    mkdir .guides/secure/task-1-tests; touch .guides/secure/task-1-tests/task-01.test.js; touch .guides/secure/task-1-tests/processTestResult1.js; mkdir task-02; touch task-02/task-02.js; touch task-02/index.html; touch task-02/styles.css; touch task-02/index.html; touch task-02/app.js;\n    mkdir .guides/secure/task-2-tests; touch .guides/secure/task-2-tests/task-02.test.js; touch .guides/secure/task-2-tests/processTestResult2.js; mkdir task-03; touch task-03/task-03.js; touch task-03/index.html; touch task-03/styles.css; touch task-03/index.html; touch task-03/app.js;\n    mkdir .guides/secure/task-3-tests; touch .guides/secure/task-3-tests/task-03.test.js; touch .guides/secure/task-3-tests/processTestResult3.js; mkdir task-04; touch task-04/task-04.js; touch task-04/index.html; touch task-04/styles.css; touch task-04/index.html; touch task-04/app.js;\n    mkdir .guides/secure/task-4-tests; touch .guides/secure/task-4-tests/task-04.test.js; touch .guides/secure/task-4-tests/processTestResult4.js; mkdir task-05; touch task-05/task-05.js; touch task-05/index.html; touch task-05/styles.css; touch task-05/index.html; touch task-05/app.js;\n    mkdir .guides/secure/task-5-tests; touch .guides/secure/task-5-tests/task-05.test.js; touch .guides/secure/task-5-tests/processTestResult5.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"jest": "^29.7.0",
+		"jest-environment-jsdom": "^29.7.0",
+		"jsdom": "^22.1.0"
+	},
+	"jest": {
+		"testEnvironment": "jsdom"
+	}
+}

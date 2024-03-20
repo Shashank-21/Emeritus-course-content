@@ -1,0 +1,29 @@
+{
+	"id": "c745467b-0679-27ae-90dd-009c30fa42b6",
+	"title": "Switch between Random and Projectile Motion",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "task-05/random-projectile-switch.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "#preview: task-05/index.html",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "3-cell-tree",
+	"path": [
+		"task-05/"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": false,
+	"learningObjectives": ""
+}

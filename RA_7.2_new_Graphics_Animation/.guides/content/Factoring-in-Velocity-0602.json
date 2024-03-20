@@ -1,0 +1,29 @@
+{
+	"id": "06020d64-bd78-7752-4462-32df825e9c3f",
+	"title": "Factoring in Velocity",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "task-02/factor-velocity.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "#preview: task-02/index.html",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "3-cell-tree",
+	"path": [
+		"task-02/"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": false,
+	"learningObjectives": ""
+}

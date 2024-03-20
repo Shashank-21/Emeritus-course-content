@@ -1,0 +1,29 @@
+{
+	"id": "1554605e-41d2-91d8-31d4-35bc3b26fc4c",
+	"title": "Making Movements Realistic — Projectile Motion",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "task-04/projectile-motion.js",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "#preview: task-04/index.html",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "3-cell-tree",
+	"path": [
+		"task-04/"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": false,
+	"learningObjectives": ""
+}
