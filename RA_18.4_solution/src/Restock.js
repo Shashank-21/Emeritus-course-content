@@ -10,8 +10,8 @@ const Restock = ({ setProducts }) => {
 	};
 
 	const handleRestockSubmit = async (event) => {
-		event.preventDefault();
 		console.log('Restocking');
+		event.preventDefault();
 		const productData = await axios.get(restockLink);
 		console.log(productData.data.data);
 
