@@ -1,4 +1,5 @@
 // this function makes a ball with position and velocity set
+// this function makes a ball with position and velocity set
 const size = 30; // size of ball
 const balls = []; //Array to hold all the balls
 
@@ -118,23 +119,19 @@ function toggleMotion(motionType) {
     // This means that the current motion is random
     // We need to switch to projectile motion
     // Set 'motionType' to 'Projectile'
-    
   } else {
     // This means that the current motion is projectile
     // We need to switch to random motion
     // Set 'motionType' to 'Random'
-    
   }
   // Once we have changed the motion type, we need to update the text in the p element and the button
   // The p element shows the current motion we're simulating and the button shows the motion we can switch to
   // This is done by the updateText function. All you need to do is call it and pass in the motionType variable
   //  Your code here
-  
 
   //Finally, we'll need to simulate the motion that we just switched to
   // This is done by the simulate function. All you need to do is call it and pass in the motionType variable
   // Your code here
-  
 
   // Do not change this line
   return motionType;
