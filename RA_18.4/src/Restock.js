@@ -10,9 +10,10 @@ const Restock = ({ setProducts }) => {
 	};
 
 	const handleRestockSubmit = async (event) => {
-		// Prevent the default form behavior by using the `preventDefault` function present in the `event` object
 		console.log('Restocking');
 		// Todo:
+		// Prevent the default form behavior by using the `preventDefault` function present in the`event` object
+
 		// Get the products data from the `restockLink` using `axios.get`. Since this is an asynchronous operation, use the `await` keyword in front of it. Save the result in the variable `productData`
 
 		// Map over `productData.data.data`, select only the `Name`, `Country`,`Cost` and `inStock` properties from each item's `attributes` property, and return an object containing those 4 properties. Store the result in the `restockedProducts` variable
