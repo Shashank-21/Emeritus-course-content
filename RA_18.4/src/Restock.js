@@ -10,7 +10,7 @@ const Restock = ({ setProducts }) => {
 	};
 
 	const handleRestockSubmit = async (event) => {
-		event.preventDefault();
+		// Prevent the default form behavior by using the `preventDefault` function present in the `event` object
 		console.log('Restocking');
 		// Todo:
 		// Get the products data from the `restockLink` using `axios.get`. Since this is an asynchronous operation, use the `await` keyword in front of it. Save the result in the variable `productData`
