@@ -103,7 +103,7 @@ const root = {
   setrestaurant: ({ input }) => {
     // Construct a new restaurant object with a unique id and the provided name and description
     const newRestaurant = {
-      id: Math.max(restaurants.map((restaurant) => restaurant.id)) + 1, // For the unique ID, get the maximum value of the restaurant's `id` property and increment that by 1.
+      id: Math.max(...restaurants.map((restaurant) => restaurant.id)) + 1, // For the unique ID, get the maximum value of the restaurant's `id` property and increment that by 1.
       name: input.name,
       description: input.description,
       dishes: [], // The new restaurant will have an empty array for the `dishes` property.
@@ -121,16 +121,18 @@ const root = {
       restaurants.splice(index, 1);
       return { ok: true };
     }
-    // If the restaurant is not found, return the object {ok:false}
+    // If the restaurant is not found, return the object { ok: false }
     return { ok: false };
   },
   editrestaurant: ({ id, name }) => {
     // Find the restaurant with the specified id using he `find` function.
-    const restaurant = restaurants.find((restaurant) => restaurant.id === id);
+    const existingRestaurant = restaurants.find(
+      (restaurant) => restaurant.id === id
+    );
     // If the restaurant exists, set the `name` property of the restaurant (`restaurant.name`) to the given `name` input. Then, return the restaurant object.
-    if (restaurant) {
-      restaurant.name = name;
-      return restaurant;
+    if (existingRestaurant) {
+      existingRestaurant.name = name;
+      return existingRestaurant;
     }
     // If no restaurant was found with the id, return null (or consider throwing an error)
     return null;

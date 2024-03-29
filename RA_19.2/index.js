@@ -108,7 +108,7 @@ const root = {
   deleterestaurant: ({ id }) => {
     // Find the index of the restaurant using the given `id`, with the help of the `findIndex` function.
     // If the restaurant is found, remove the restaurant from the `restaurants` array using the `splice` function and return the object { ok: true }
-    // If the restaurant is not found, return the object {ok:false}
+    // If the restaurant is not found, return the object { ok: false }
   },
   editrestaurant: ({ id, name }) => {
     // Find the restaurant with the specified id using he `find` function.
